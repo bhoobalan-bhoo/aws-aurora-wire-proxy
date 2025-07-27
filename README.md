@@ -20,7 +20,7 @@ AuroraWire connects pgAdmin, DBeaver, and any PostgreSQL client to Aurora Server
 
 ---
 
-## 🎯 Why AuroraWire?
+## Why AuroraWire?
 
 ### The Problem
 - **Security Risk**: Making RDS publicly accessible exposes your database to attacks and breaches
@@ -31,7 +31,7 @@ AuroraWire connects pgAdmin, DBeaver, and any PostgreSQL client to Aurora Server
 ### The Solution
 AuroraWire eliminates these challenges by providing a **zero-infrastructure middleware** that acts as a secure bridge between your PostgreSQL clients and Aurora Serverless v2.
 
-## ✨ Key Benefits
+## Key Benefits
 
 <table>
 <tr>
@@ -65,7 +65,7 @@ AuroraWire eliminates these challenges by providing a **zero-infrastructure midd
 </tr>
 </table>
 
-## 🌟 Who Should Use This?
+## Who Should Use This?
 
 ### **Enterprise Teams**
 - Running AWS RDS from your own infrastructure and need secure access
@@ -84,7 +84,7 @@ AuroraWire eliminates these challenges by providing a **zero-infrastructure midd
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+
@@ -120,7 +120,7 @@ npm start
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```mermaid
 graph LR
@@ -144,7 +144,7 @@ graph LR
 
 ```
 
-## 📊 Performance & Limitations
+## Performance & Limitations
 
 | Feature | Support Level | Notes |
 |---------|---------------|-------|
@@ -171,7 +171,7 @@ aws-aurora-wire-proxy/
    └── index.js          # Main File
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -255,7 +255,7 @@ const connectionString = 'postgresql://proxy:proxy@localhost:5432/your_db_name';
 
 ---
 
-## 🚀 Deployment Options
+## Deployment Options
 
 ### **Local Development**
 ```bash
@@ -275,7 +275,7 @@ Cooooking!
 ---
 
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions!
 
@@ -294,7 +294,7 @@ npm run dev
 
 ---
 
-## 📈 Roadmap
+## Roadmap
 
 - [ ] **Enhanced Transaction Support** - Extended Data API transaction capabilities
 - [ ] **Query Result Caching** - Redis-based result caching for improved performance  
@@ -306,13 +306,13 @@ npm run dev
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## ✅ Acknowledgments
+## Acknowledgments
 
 - **PostgreSQL Community** - For comprehensive protocol documentation
 - **AWS Team** - For RDS Data API and Aurora Serverless innovations
