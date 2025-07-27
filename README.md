@@ -1,7 +1,7 @@
 
 <p align="center">
-  <img src="./docs/logo/aurorawire-dark-logo.png#gh-dark-mode-only" alt="AuroraWire-Logo" width="40%" />
-  <img src="./docs/logo/aurorawire-light-logo.png#gh-light-mode-only" alt="AuroraWire-Logo" width="40%" />
+  <img src="./docs/logo/aurorawire-dark-logo.png#gh-dark-mode-only" alt="AuroraWire-Logo" width="50%" />
+  <img src="./docs/logo/aurorawire-light-logo.png#gh-light-mode-only" alt="AuroraWire-Logo" width="50%" />
 </p>
 
 ## AuroraWire - Enterprise-grade PostgreSQL wire protocol proxy
