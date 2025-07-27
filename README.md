@@ -4,7 +4,7 @@
   <img src="./docs/logo/aurorawire-light-logo.png#gh-light-mode-only" alt="AuroraWire-Logo" width="50%" />
 </p>
 
-## AuroraWire - Enterprise-grade PostgreSQL wire protocol proxy
+<h1 align="center">AuroraWire - Enterprise-grade PostgreSQL wire protocol proxy</h1>
 
 <div align="center">
 
