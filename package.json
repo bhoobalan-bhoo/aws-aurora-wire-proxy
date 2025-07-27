@@ -1,0 +1,35 @@
+{
+  "name": "rds-data-api-proxy",
+  "version": "1.0.0",
+  "description": "PostgreSQL wire protocol proxy for AWS RDS Data API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@aws-sdk/client-rds-data": "^3.490.0",
+    "@aws-sdk/credential-providers": "^3.490.0",
+    "winston": "^3.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "postgresql",
+    "aws",
+    "rds",
+    "data-api",
+    "proxy",
+    "pgadmin"
+  ],
+  "author": "bhoobalan",
+  "license": "MIT"
+}
