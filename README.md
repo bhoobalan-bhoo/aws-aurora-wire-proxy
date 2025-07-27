@@ -1,7 +1,7 @@
 
 <p align="center">
-  <img src="./docs/logo/aurorawire-dark-logo.svg#gh-dark-mode-only" alt="AuroraWire-Logo" width="40%" />
-  <img src="./docs/logo/aurorawire-light-logo.svg#gh-light-mode-only" alt="AuroraWire-Logo" width="40%" />
+  <img src="./docs/logo/aurorawire-dark-logo.png#gh-dark-mode-only" alt="AuroraWire-Logo" width="40%" />
+  <img src="./docs/logo/aurorawire-light-logo.png#gh-light-mode-only" alt="AuroraWire-Logo" width="40%" />
 </p>
 
 ## AuroraWire - Enterprise-grade PostgreSQL wire protocol proxy
@@ -177,19 +177,14 @@ aws-aurora-wire-proxy/
 
 ```bash
 # AWS Configuration
-AWS_ACCESS_KEY_ID=your_access_key
-AWS_SECRET_ACCESS_KEY=your_secret_key
-AWS_REGION=us-east-1
+AWS_REGION=""
+AWS_ACCESS_KEY_ID=""
+AWS_SECRET_ACCESS_KEY=""
 
-# Aurora Cluster
-CLUSTER_ARN=arn:aws:rds:region:account:cluster:cluster-name
-SECRET_ARN=arn:aws:secretsmanager:region:account:secret:secret-name
-DATABASE_NAME=postgres
-
-# Proxy Settings
-PROXY_HOST=localhost
-PROXY_PORT=5432
-LOG_LEVEL=info
+# RDS Data API Configuration
+RDS_CLUSTER_ARN=""
+RDS_SECRET_ARN=""
+RDS_DATABASE_NAME=""
 ```
 
 ### IAM Permissions
