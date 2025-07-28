@@ -69,7 +69,7 @@ AuroraWire eliminates these challenges by providing a **zero-infrastructure midd
 
 ### **Enterprise Teams**
 - Running AWS RDS from your own infrastructure and need secure access
-- Eliminating public database exposure for compliance requirements
+- Preventing postgresql:// connection strings from traversing public internet
 - Reducing operational overhead of bastion hosts and VPN management
 
 ### **Development Teams**
@@ -180,6 +180,7 @@ aws-aurora-wire-proxy/
 AWS_REGION=""
 AWS_ACCESS_KEY_ID=""
 AWS_SECRET_ACCESS_KEY=""
+AWS_SESSION_TOKEN="" (Optional, If you wanna connect via SSO using 1 Hour Token)
 
 # RDS Data API Configuration
 RDS_CLUSTER_ARN=""
